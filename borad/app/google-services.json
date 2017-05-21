@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "230583271423",
+    "firebase_url": "https://kapprojecthomewark.firebaseio.com",
+    "project_id": "kapprojecthomewark",
+    "storage_bucket": "kapprojecthomewark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230583271423:android:484a92c5b2e00a08",
+        "android_client_info": {
+          "package_name": "com.example.phyon.borad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230583271423-g8de7cd1rn1g0ajur9bapsp6iccu903h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSNdEFBCzvp-K31Rygjd-ZfzIq0gCuiJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
