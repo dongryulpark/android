@@ -1,7 +1,8 @@
 package com.example.phyon.a20170524board;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
@@ -58,11 +59,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void init() {
-        mButton = findViewById(R.id.)
+        mButton = (Button) findViewById(R.id.button_create);
+        mButton.setOnClickListener(this);
+        mListView = (ListView)findViewById(R.id.board_listview);
     }
 
     @Override
     public void onClick(View v) {
-
+       Intent intent = new Intent(MainActivity.this, CreateActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
