@@ -2,6 +2,9 @@ package com.example.phyon.a20170524board;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ListView;
 
 
 // TODO: 2017-05-20
@@ -41,12 +44,25 @@ import android.os.Bundle;
      */
 //
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+    private Button mButton;
+    private ListView mListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        setTitle("Board");
+        init();
+    }
+
+    private void init() {
+        mButton = findViewById(R.id.)
+    }
+
+    @Override
+    public void onClick(View v) {
 
     }
 }
