@@ -27,4 +27,17 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     testCompile 'junit:junit:4.12'
+
+    def firebaseVersion = '10.0.1'
+
+    /* Google FireBase */
+    compile "com.google.firebase:firebase-core:${firebaseVersion}"
+    compile "com.google.firebase:firebase-auth:${firebaseVersion}"
+    compile "com.google.firebase:firebase-messaging:${firebaseVersion}"
+    compile "com.google.firebase:firebase-database:${firebaseVersion}"
+    compile "com.google.firebase:firebase-config:${firebaseVersion}"
+    compile "com.google.firebase:firebase-storage:${firebaseVersion}"
+
 }
+
+apply plugin: 'com.google.gms.google-services'
