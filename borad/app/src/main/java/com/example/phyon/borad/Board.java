@@ -13,6 +13,7 @@ import java.util.Map;
 public class Board {
     public String boardUid;
     public String title;
+
     public String contents;
 
     public Board(){
